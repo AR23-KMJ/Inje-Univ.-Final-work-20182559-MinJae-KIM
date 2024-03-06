@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CalculatorActivity">
+
+    <Button
+        android:id="@+id/dateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="날짜를 선택하세요."
+        android:fontFamily="@font/goodday1"/>
+
+    <EditText
+        android:id="@+id/etVisitOffice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="총 방문업소"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/etTotalTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="총 테이블"
+        android:inputType="numberDecimal"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="19dp" />
+
+    <EditText
+        android:id="@+id/etPresidential"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="대선/병"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/etGoodDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="좋은데이/병"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/etHiteSoju"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="참이슬,진로/병"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/etChumChurum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="처음처럼/병"
+        android:inputType="numberDecimal"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+    <EditText
+        android:id="@+id/etPresidentialPromotion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="전환/병"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/etHiteJinroPromotion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="추가전환/병"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/goodday1"
+        android:text="계산하기"/>
+</LinearLayout>

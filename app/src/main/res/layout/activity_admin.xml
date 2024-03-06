@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeMessage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/goodday1"
+        android:text="안녕하세요! 원조 무가당 좋은데이 입니다."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/welcomeMessage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:fontFamily="@font/goodday1"
+        android:text="오늘도 좋은 하루입니다 담당자님!"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        app:srcCompat="@drawable/goodday_1" />
+
+
+    <Button
+        android:id="@+id/btn_Check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/goodday1"
+        android:text="요청 사항 확인" />
+
+    <Button
+        android:id="@+id/btn_GoodDayNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="좋은데이 뉴스 확인"
+        android:fontFamily="@font/goodday1"
+       />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="음용비 확인하기"
+        android:fontFamily="@font/goodday1"
+        android:id="@+id/btn_diary2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="무학(c) COPYRIGHT 2023 Muhak Co.LTD, ALL RIGHT RESERVED."
+        android:textSize="10sp" />
+    <Button
+        android:id="@+id/btn_logout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그아웃"
+        android:fontFamily="@font/goodday1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"></Button>
+
+</LinearLayout>

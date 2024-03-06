@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "370224178594",
+    "firebase_url": "https://sw-goodday-default-rtdb.firebaseio.com",
+    "project_id": "sw-goodday",
+    "storage_bucket": "sw-goodday.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370224178594:android:a68a90e45874baaf157efb",
+        "android_client_info": {
+          "package_name": "com.kmj.sw_finalexam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFt1-IfZncfuLdXkxIBeREy-tPor6Yg6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370224178594:android:eec036c85eb9fc1f157efb",
+        "android_client_info": {
+          "package_name": "com.kmj.sw_goodday"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFt1-IfZncfuLdXkxIBeREy-tPor6Yg6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
